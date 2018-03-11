@@ -5,9 +5,14 @@ node_modules/*
 public/bundle.js
 public/bundle.js.map
 
+# ignore package lock
+package-lock.json
+
 # NPM errors
 npm-debug.log
 
-#ignore seed file
-seed.js
+# ignore env variables
 .env
+
+
+
