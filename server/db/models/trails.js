@@ -20,6 +20,14 @@ const Trails = db.define('trails', {
     length : {
         type: Sequelize.INTEGER,
         allowNull: false
+    },
+    lat : {
+        type: Sequelize.FLOAT(5),
+        allowNull: false
+    },
+    lng : {
+        type: Sequelize.FLOAT(5),
+        allowNull: false
     }
     
 }, {
