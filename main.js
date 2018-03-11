@@ -2,7 +2,7 @@
 
 const db = require('./server/db/models')
 const app = require('./server')
-const PORT = 1337;
+const PORT = process.env.PORT || 1337;
 
 
 db.sync({force:false}) /* drop db = {force: true} */
