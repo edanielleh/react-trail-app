@@ -6,7 +6,8 @@
   "scripts": {
     "seed": "node ./seed.js",
     "start:dev": "webpack -w & nodemon main.js",
-    "start": "node main"
+    "start": "node main",
+    "postinstall": "NODE_ENV=production webpack -p"
   },
   "keywords": [
     "react",
@@ -25,6 +26,7 @@
     "lodash": "^4.17.5",
     "morgan": "^1.9.0",
     "pg": "^6.1.0",
+    "postinstall": "0.0.1",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-forecast": "0.0.7",
@@ -38,7 +40,8 @@
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.1.0",
     "sequelize": "^4.7.4",
-    "whatwg-fetch": "^2.0.3"
+    "whatwg-fetch": "^2.0.3",
+    "webpack": "^3.5.5"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -47,7 +50,6 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "dotenv": "^5.0.1",
-    "volleyball": "^1.4.1",
-    "webpack": "^3.5.5"
+    "volleyball": "^1.4.1"
   }
 }

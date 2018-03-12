@@ -50,7 +50,6 @@ class EasyTrails extends React.Component {
       )
   };
   render() {
-    console.log(this.props.props);
     return (
       <div>
         {this.state.markers.map(marker =>
@@ -78,7 +77,6 @@ class ModerateTrails extends React.Component {
       )
   };
   render() {
-    console.log(this.props.props);
     return (
       <div>
         {this.state.markers.map(marker =>
