@@ -24,6 +24,7 @@
     "fs": "0.0.1-security",
     "google-map-react": "^0.32.0",
     "lodash": "^4.17.5",
+    "moment": "^2.21.0",
     "morgan": "^1.9.0",
     "pg": "^6.1.0",
     "postinstall": "0.0.1",
@@ -32,6 +33,7 @@
     "react-forecast": "0.0.7",
     "react-google-maps": "^9.4.5",
     "react-google-maps-loader": "^4.1.0",
+    "react-open-weather": "^0.3.0",
     "react-redux": "^4.4.8",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.1.1",
@@ -40,8 +42,8 @@
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.1.0",
     "sequelize": "^4.7.4",
-    "whatwg-fetch": "^2.0.3",
-    "webpack": "^3.5.5"
+    "webpack": "^3.5.5",
+    "whatwg-fetch": "^2.0.3"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",

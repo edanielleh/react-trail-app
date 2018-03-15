@@ -1,17 +1,18 @@
-import React, { Component }from 'react';
-import axios from 'axios';
-import {connect} from 'react-redux';
+import React, { Component } from 'react';
 import Forecast from 'react-forecast';
-import { compose, withStateHandlers } from "recompose";
-
-
-
-function Location(props) {
+ 
+class Location extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+ 
+  render() {
     return (
       <div id="forecast">
-        <Forecast latitude={props.marker.lat} longitude={props.marker.lng} name={props.marker.name} />
+        <Forecast key={this.props.marker.id} latitude={this.props.marker.lat} longitude={this.props.marker.lng} name={this.props.marker.name} />
       </div>
     )
+  }
 }
  
 export default Location;

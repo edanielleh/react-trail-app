@@ -114,7 +114,7 @@ function GoogleMapsTrailComponent(props) {
           {props.easyMode ? <EasyTrails props={props} /> : null}
           {props.moderateMode ? <ModerateTrails props={props} /> : null}
           {props.hardMode ? <HardTrails props={props} /> : null}
-          {props.isOpen() === true ? <Location marker={props.currentMarker} /> : null}
+          {props.isOpen() === true ? <Location marker={props.currentMarker} /> : null} 
         </div>
       </GoogleMap>
     </div>
