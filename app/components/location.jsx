@@ -8,8 +8,12 @@ class Location extends React.Component {
  
   render() {
     return (
+      <div>
       <div id="forecast">
         <Forecast key={this.props.marker.id} latitude={this.props.marker.lat} longitude={this.props.marker.lng} name={this.props.marker.name} />
+      </div>
+      <p>Type: {this.props.marker.type}</p>
+      <p>Length: {this.props.marker.length} miles</p>
       </div>
     )
   }
